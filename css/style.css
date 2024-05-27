@@ -45,7 +45,6 @@ body {
 }
 
 .b-between {
-  margin-left: 60px;
   margin-right: 10px;
 }
 
@@ -72,6 +71,7 @@ body {
   color: white;
   font-size: 21px;
   font-weight: 700;
+  text-align: center;
 }
 
 .header-content > p {
@@ -118,6 +118,7 @@ div[class^="main-row"] {
 
 h2 {
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .main-row-2 {
@@ -142,13 +143,11 @@ h2 {
 .main-col-dx2 {
   margin: 18px auto;
   width: 65%;
-  border: 1px dashed black;
 }
 
 .main-col-sx2 {
   margin: 18px auto;
   width: 35%;
-  border: 1px dashed black;
 }
 
 .main-col-sx2-content {
@@ -157,27 +156,18 @@ h2 {
 
 .main-col-dx3 {
   margin: 18px auto;
-  background-color: rgba(255, 192, 203, 255);
   width: 35%;
-  height: 200px;
-  border: 1px dashed black;
 }
 
 .main-col-sx3 {
   margin: 18px auto;
-  background-color: rgba(30, 144, 255, 255);
   width: 65%;
-  height: 200px;
-  border: 1px dashed black;
   /* order: 1; */
 }
 
 .main-col4 {
   margin: 18px auto;
-  background-color: rgba(34, 139, 34, 255);
   width: 100%;
-  height: 500px;
-  border: 1px dashed black;
 }
 
 .main-col-5-red {
