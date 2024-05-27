@@ -96,7 +96,7 @@ a {
   text-decoration: none;
 }
 
-button {
+.b-values {
   margin-top: 10px;
   padding: 9px;
   border-radius: 16px;
@@ -135,11 +135,6 @@ h2 {
   background-color: rgba(211, 211, 211, 255);
 }
 
-.main-row-5 {
-  padding: 0 25%;
-  background-color: rgba(35, 39, 42, 255);
-}
-
 .main-col-dx2 {
   margin: 18px auto;
   width: 65%;
@@ -170,32 +165,30 @@ h2 {
   width: 100%;
 }
 
-.main-col-5-red {
-  margin: 5px auto 18px;
-  background-color: rgba(240, 128, 128, 255);
-  width: 40%;
-  height: 300px;
-  border: 1px dashed black;
-}
-
-.main-col-5 {
-  margin: 5px auto 18px;
-  background-color: rgba(32, 178, 170, 255);
-  width: 15%;
-  height: 300px;
-  border: 1px dashed white;
-}
-
 /* FOOTER */
 
 .footer-container {
   max-width: 100%;
-  background-color: rgba(35, 39, 42, 255);
-  height: 80px;
   display: flex;
   flex-wrap: wrap;
   margin-top: 1px;
   align-items: end;
+  background-color: rgba(35, 39, 42, 255);
+}
+
+.main-row-5 {
+  padding: 0 25%;
+}
+
+.main-col-5-red {
+  margin: 5px auto 18px;
+  width: 40%;
+  height: 300px;
+}
+
+.main-col-5 {
+  margin: 5px auto 18px;
+  width: 15%;
 }
 
 .footer-row {
@@ -203,7 +196,6 @@ h2 {
   flex-wrap: wrap;
   width: 50%;
   margin: 1px auto;
-  background-color: rgba(127, 255, 212, 255);
   justify-content: space-between;
 }
 
@@ -216,7 +208,36 @@ h2 {
 }
 
 .footer-content {
-  background-color: rgba(255, 182, 193, 255);
-  border: 1px dashed black;
   padding: 4px;
+}
+
+.main-col-5-content > p {
+  color: white;
+  margin: 20px 0;
+}
+
+span {
+  color: white;
+}
+
+h4 {
+  color: rgba(114, 137, 218, 255);
+}
+
+.main-col-5-red-content > h3 {
+  color: rgba(114, 137, 218, 255);
+}
+
+.darkblue-hr {
+  background-color: rgba(114, 137, 218, 255);
+  height: 1px;
+  width: 100%;
+}
+
+.footer-button {
+  padding: 9px;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  background-color: rgba(114, 137, 218, 255);
 }
