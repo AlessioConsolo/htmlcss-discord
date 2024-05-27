@@ -4,18 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* HEADER */
 
 .header-container {
   max-width: 100%;
-  background-color: rgba(173, 216, 230, 255);
+  background-image: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 500px; */
 }
 
 .header-row {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 1200px;
   margin: 0 auto;
+  height: 450px;
+}
+
+.main-row-1 {
 }
 
 .header-col-dx,
@@ -27,9 +39,23 @@
   width: 60%;
 }
 
+.black-b {
+  background-color: black;
+  color: white;
+}
+
+.b-between {
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+.main-col1 {
+  margin: 18px auto;
+  /* width: 80%; */
+  /* height: 282px; */
+}
+
 .header-content {
-  background-color: rgba(218, 165, 32, 255);
-  border: 1px dashed black;
   margin: 10px 0;
   padding: 5px;
 }
@@ -42,12 +68,39 @@
   text-align: end;
 }
 
+.main-col1 > .header-content {
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.header-content > p {
+  font-size: medium;
+  font-weight: 300;
+  margin-top: 30px;
+  /* word-wrap: break-word; */
+  /* white-space: pre-wrap; */
+}
+
 ul {
   list-style-type: none;
 }
 
 li {
   display: inline-block;
+  padding: 5px 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 9px;
+  border-radius: 16px;
+  border: none;
 }
 
 /* MAIN */
@@ -63,8 +116,8 @@ div[class^="main-row"] {
   margin: 0 auto;
 }
 
-.main-row-1 {
-  background-color: rgba(0, 0, 139, 255);
+h2 {
+  font-size: 30px;
 }
 
 .main-row-2 {
@@ -86,28 +139,20 @@ div[class^="main-row"] {
   background-color: rgba(35, 39, 42, 255);
 }
 
-.main-col1 {
-  margin: 18px auto;
-  background-color: rgba(238, 130, 238, 255);
-  width: 40%;
-  height: 180px;
-  border: 1px dashed black;
-}
-
 .main-col-dx2 {
   margin: 18px auto;
-  background-color: rgba(30, 144, 255, 255);
   width: 65%;
-  height: 200px;
   border: 1px dashed black;
 }
 
 .main-col-sx2 {
   margin: 18px auto;
-  background-color: rgba(255, 192, 203, 255);
   width: 35%;
-  height: 200px;
   border: 1px dashed black;
+}
+
+.main-col-sx2-content {
+  text-align: center;
 }
 
 .main-col-dx3 {
